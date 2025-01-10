@@ -1,0 +1,107 @@
+.row1{
+    padding-top: 200px;
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #000000;
+     color: white;
+     justify-content: center;
+  }
+  
+  .col-3{
+    flex-basis: 50%;
+    min-width: 300px;
+    position: relative;
+    bottom: 100px;
+  
+  }
+  
+  .col-3 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+  
+  input[type="email"] {
+   width: 300px;
+   padding: 10px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-color: transparent;
+   color: white;
+  }
+  
+  input[type="email"]:focus {
+   outline: none;
+   border-color: #fff;
+  }
+  
+  .col-3 button {
+   background-color: #fff;
+   color: black;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 10px;
+  }
+  
+  .col-3 button:hover {
+   background-color: #ddd;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    color:black;
+  }
+  
+  .footer {
+    width: 30%;
+  }
+  
+  .footer h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .footer p, .footer li {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .footer li {
+    list-style: none;
+  }
+  
+  .footer a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .content {
+    padding: 10px;
+  }
+  
+  .footer .content li {
+    margin-bottom: 5px;
+  }
+  
+  .footer .content a {
+    color:white;
+  }
+  
+  
