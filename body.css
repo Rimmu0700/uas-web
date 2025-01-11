@@ -1,0 +1,515 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+  }
+/* bagian main Dekjus */
+
+
+
+.header{
+  height: 100vh;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* Buka Navbar */
+
+.navbar {
+ width: 100%;
+  position: fixed;
+  top: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 1000;
+    transition: border 5s ease-in-out; 
+}
+.navbar.scrol {
+  border-bottom: 5px solid lightskyblue;
+  background-color: white;
+  padding: 0;
+  height: 6%;
+}
+.navbar1{
+    flex: 1;
+    text-align: right;
+}
+.keranjang{
+  position: relative;
+}
+.logo img{
+  position: absolute;
+  height: 200%;
+  display: flex;
+  align-items: center;
+  top: -20px;
+}
+.navbar ul li img{
+  position: absolute;
+  height: 200%;
+  display: flex;
+  align-items: center;
+  top: -10px;
+}
+.navbar ul li img:hover{
+  background-color: lightgreen;
+  border-radius: 20%;
+}
+.navbar ul{
+    
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar1 ul li a{
+  text-decoration: none;
+  color: black;
+}
+.navbar1 ul li{
+  
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: 100px;
+    height: 20px;
+    text-decoration: double;
+}
+.navbar1 ul li:hover{
+  transition: 2s;
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+/* Tutup Navbar */
+.row{
+   padding-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+/* Selesai bagian main Dekjus */
+/* Bagian main Armeza */
+  
+.Judul {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+  
+.Judul h1 {
+    margin: 0;
+  }
+  
+.Judul p {
+    margin-top: 5px;
+    color: #777;
+  }
+  /* promo */
+
+  .promo{
+    margin: auto;
+    height: 300px;
+    width: 80%;
+    border: 5px solid #87cefa;
+    
+  }
+.promo1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #00ffff;
+}
+.gambarPromo{
+  display: flex;
+  animation: slide 30s infinite;
+}
+.gambarPromo img{
+  width: 100%;
+  
+  object-fit: contain;
+}
+@keyframes slide {
+  0%{
+    transform: translateX(0);
+  }
+  10%{
+    transform:translateX(0)
+  }
+  20%{
+    transform: translateX(-100%);
+  }
+  30%{
+    transform: translateX(-200%);
+  }
+  40%{
+    transform: translateX(-300%);
+  }
+  50%{
+    transform: translateX(-400%);
+  }
+  60%{
+    transform:translateX(-400%)
+  }
+  70%{
+    transform: translateX(-300%);
+  }
+  80%{
+    transform: translateX(-200%);
+  }
+  90%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+
+
+
+  /* tutup promo */
+
+    .search-container {
+      justify-content: center;
+      background-color: rgb(238, 238, 238);
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+    
+    #search-input {
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      width: 300px;
+      margin-right: 10px;
+      outline: none;
+      
+    }
+    
+    #search-button {
+      padding: 10px 15px;
+      border: none;
+      background-color: skyblue;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    #search-button:hover {
+      background-color: #0056b3;
+    }
+    
+    .results-container {
+      margin-top: 20px;
+      max-width: 2600px;
+      background-color: rgb(255, 0, 0);
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+    }
+    
+    .product-card {
+      display: flex;
+      margin-bottom: 20px;
+   width: 250px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+      margin-right: 20px; 
+    }
+
+
+
+    
+
+/* akhir search*/
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.laptop-item {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.laptop-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.laptop-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.laptop-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.laptop-item h3 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.laptop-item p {
+  font-size: 1.2em;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.laptop-item button {
+  background-color: #ffbb00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+}
+.more-button {
+  text-align: center; 
+  margin: 20px;
+}
+
+.more-button button {
+  background-color: #ffbb00; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.more-button button:hover {
+  background-color: #ffbb00;
+  transform: scale(1.05); 
+}
+
+.more-button button:focus {
+  outline: none; 
+}
+.item-container1 {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent items from wrapping */
+  padding-bottom: 20px; /* Add some bottom padding for spacing */
+}
+
+.laptop-item1 {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  /* Optional: Add some minimum width to prevent items from being too small */
+  min-width: 250px;
+}
+
+.laptop-item1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.laptop-item1 img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.laptop-content1 {
+  padding: 15px;
+  text-align: center;
+}
+
+.laptop-item1 h3 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.laptop-item1 p {
+  font-size: 1.2em;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.laptop-item1 button {
+  background-color: #ffbb00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+}
+.row1{
+  padding-top: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #000000;
+   color: white;
+   justify-content: center;
+}
+
+.col-3{
+  flex-basis: 50%;
+  min-width: 300px;
+  position: relative;
+  bottom: 100px;
+
+}
+
+.col-3 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+input[type="email"] {
+ width: 300px;
+ padding: 10px;
+ border: 1px solid white;
+ border-radius: 5px;
+ background-color: transparent;
+ color: white;
+}
+
+input[type="email"]:focus {
+ outline: none;
+ border-color: #fff;
+}
+
+.col-3 button {
+ background-color: #fff;
+ color: black;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-top: 10px;
+}
+
+.col-3 button:hover {
+ background-color: #ddd;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* Selesai bagian main Armeza */
+/* bagian main Tommy */
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color:rgb(255, 255, 255);
+  color:black;
+}
+
+.footer {
+  width: 30%;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.footer p, .footer li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .content {
+  padding: 10px;
+}
+
+.footer .content li {
+  margin-bottom: 5px;
+}
+
+.footer .content a {
+  color:white;
+}
+
+/* Selesai bagian main Tommy */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
