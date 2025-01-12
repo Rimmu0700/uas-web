@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regis Form</title>
-    <link rel="stylesheet" href="regis.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simpe Registration</title>
 </head>
-<body>
-    <div class="container">
-        <form class="data" id="regisForm">
-            <h2>Registration</h2>
-            <div class="nama">
-                <input type="text" id="username" placeholder="Username" required>
-            </div>
-            <div class="pass">
-                <input type="password" id="password" placeholder="Password" required>
-            </div>
-            <div class="email">
-                <input type="email" id="email" placeholder="Email" required>
-            </div>
-            <button type="submit" id="regisButton">Register</button>
+<body align="middle">
+        <div><center><h2>Registration Form.</h2></center></div>
+        <form action='register.php' method='POST'>
+                <label for="user">Username:</label>     <br/>
+                <input type='text' name='user' id="user"  required/><br/>
+                <label for="user">Password:</label>     <br/>
+                <input type='password' name='pass' id="pass"  required/><br/>
+                <label for="user">Email:</label>        <br/>
+                <input type='email' name='email' id="email"  required/><br/>
+                <input type='submit' name='sentForm' id="sentForm" />
         </form>
-    </div>
-    <script src="regis.js"></script>
 </body>
 </html>
