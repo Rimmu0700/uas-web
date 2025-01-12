@@ -1,7 +1,9 @@
 <?php 
 $conn = mysqli_connect("localhost", "root", "", "proyekuas");
 
-function query($data){
+
+// ===============LAPTOP============
+function laptop($data){
     global $conn;
     $result = mysqli_query($conn, $data);
     $rows=[];
@@ -10,6 +12,36 @@ function query($data){
     };
     return $rows;
 }
+// ==========TUTUP LAPTOP============
+
+
+// ===========MONITOR===============
+
+function monitor($data){
+    global $conn;
+    $result = mysqli_query($conn, $data);
+    $rows=[];
+    while($row = mysqli_fetch_assoc($result)){
+        $rows[]=$row;
+    };
+    return $rows;
+}
+// ============TUTUP MONITOR==========
+// ============PERIPHERALS============
+
+function pheripearls($data){
+    global $conn;
+    $result = mysqli_query($conn, $data);
+    $rows=[];
+    while($row = mysqli_fetch_assoc($result)){
+        $rows[]=$row;
+    };
+    return $rows;
+}
+// ============TUTUP PERIPHERALS=============
+
+
+
 
 // Tambah product
 function tambah($data){
@@ -24,7 +56,28 @@ function tambah($data){
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
     
-}
+};
+function tambahmonitor($data){
+    global $conn;
+    $nama = $data["nama"];
+    $harga = $data["harga"];
+    $tipe = $data["tipe"];
+    $gambar = $data["gambar"];
 
+    $query = "INSERT INTO monitor VALUES ('','$nama','$tipe','$gambar','$harga')";
+    mysqli_query($conn, $query);
+    return mysqli_affected_rows($conn);
+}
+function tambahperlengkapan($data){
+    global $conn;
+    $nama = $data["nama"];
+    $harga = $data["harga"];
+    $tipe = $data["tipe"];
+    $gambar = $data["gambar"];
+
+    $query = "INSERT INTO perlengkapan VALUES ('','$gambar','$tipe','$nama','$harga')";
+    mysqli_query($conn, $query);
+    return mysqli_affected_rows($conn);
+}
 
 ?>

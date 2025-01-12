@@ -1,8 +1,7 @@
 <?php 
-
-require "function.php";
+require"function.php";
 if(isset($_POST["submit"])){
-    if(tambah($_POST)>0){
+    if(tambahmonitor($_POST)>0){
         echo"
         <script>
             alert('Product Baru Berhasil Ditambahkan');
@@ -15,7 +14,8 @@ if(isset($_POST["submit"])){
             document.location.href = 'index.php' ;
         </script>";
     }
-}
+};
+
 
 ?>
 
@@ -26,7 +26,7 @@ if(isset($_POST["submit"])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nambahin product</title>
+    <title>Nambahin Monitor</title>
     <style>
     body {
     font-family: Arial, sans-serif;
@@ -107,24 +107,24 @@ if(isset($_POST["submit"])){
 </head>
 <body>
     <div class="container">
-    <h1>Tambah Product</h1>
+    <h1>Tambah Monitor</h1>
 
     <form action="" method="post" class="form">
         <ul>
             <li>
-                <label for="nama">Nama Product </label><br>
-                <input type="text" id="nama" required name="nama" placeholder="Contoh : Acer Nitro 5 AN515">
+                <label for="nama">Nama Monitor </label><br>
+                <input type="text" id="nama" required name="nama" placeholder="Contoh : Monitor Acer Nitro 5 AN515">
             </li>
             <li>
-                <label for="harga">Harga Product </label><br>
+                <label for="harga">Harga Monitor </label><br>
                 <input type="text" id="harga" required name="harga" placeholder="Contoh : RP. *********">
             </li>
             <li>
-                <label for="merek">MerekProduct</label><br>
-                <input type="text" id="merek" required name="merek" placeholder="Contoh : Acer/Lenovo/Asus/dll">
+                <label for="tipe">Tipe</label><br>
+                <input type="text" id="tipe" required name="tipe" placeholder="Contoh : Monitor">
             </li>
             <li>
-                <label for="gambar">Gambar Product</label><br>
+                <label for="gambar">Gambar Monitor</label><br>
                 <input type="text" id="gambar" required name="gambar" placeholder="Contoh : *******.png/jpg/dll">
             </li>
             <li>
