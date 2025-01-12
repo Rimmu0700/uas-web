@@ -1,0 +1,267 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* bagian main Dekjus */
+
+.header {
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* Buka Navbar */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+  transition: border 5s ease-in-out;
+}
+.navbar.scrol {
+  border-bottom: 5px solid lightskyblue;
+  background-color: white;
+  padding: 0;
+  height: 6%;
+}
+.navbar1 {
+  flex: 1;
+  text-align: right;
+}
+.keranjang {
+  position: relative;
+}
+.logo img {
+  position: absolute;
+  height: 200%;
+  display: flex;
+  align-items: center;
+  top: -20px;
+}
+.navbar ul li img {
+  position: absolute;
+  height: 200%;
+  display: flex;
+  align-items: center;
+  top: -10px;
+}
+.navbar ul li img:hover {
+  background-color: lightgreen;
+  border-radius: 20%;
+}
+.navbar ul {
+  display: inline-block;
+  list-style-type: none;
+
+}
+.navbar1 ul li a{
+  text-decoration: none;
+  color: black;
+}
+.navbar1 ul li {
+
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  width: 100px;
+  height: 20px;
+}
+.navbar1 ul li:hover {
+  transition: 2s;
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+/* Tutup Navbar */
+/* Selesai bagian main Dekjus */
+section {
+  margin: 7%;
+}
+.Container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+/* slider*/
+.slides {
+  display: flex;
+  width: 40%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 80px;
+}
+.dots {
+  position: absolute;
+  
+  bottom: 480px;
+  left: 12%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  top: 150px;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+/* slider end*/
+.Judul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1px auto;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 350px;
+}
+
+.Judul h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+.harga {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tabel {
+  overflow: auto;
+  width: 1000px;
+ 
+}
+
+.tabel table {
+  border: 0px solid #dededf;
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+.tabel th {
+  border: 0px solid #dededf;
+  background-color: #eceff1;
+  color: #000000;
+  padding: 5px;
+}
+
+.tabel td {
+  border: 0px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
+
+.Tambah {
+  background-color: #ffbb00; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  left: 270px;
+  bottom: 50px;
+}
+
+.Tambah:hover {
+  background-color: #dededf;
+}
+
+.Deskripsi {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+}
+
+.footer {
+  width: 30%;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.footer p,
+.footer li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .content {
+  padding: 10px;
+}
+
+.footer .content li {
+  margin-bottom: 5px;
+}
+
+.footer .content a {
+  color: white;
+}
