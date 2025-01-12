@@ -79,5 +79,10 @@ function tambahperlengkapan($data){
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
 }
-
+// ==========Hapus Laptop=============
+function hapuslaptop($data){
+    global $conn;
+    mysqli_query($conn, "DELETE FROM laptop WHERE ID = $data");
+    return mysqli_affected_rows($conn);
+}
 ?>
