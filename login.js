@@ -1,14 +1,13 @@
-const username = document.getElementById("username");
-const password = document.getElementById("password");
-const masuk = document.getElementById("button");
 
-masuk.addEventListener("click", function(event) {
-    if (username.value == "" || password.value == "") {
-        alert("Tolong masukkan username dan password");
-        event.preventDefault();
-    } else {
-        alert("Anda Sudah Login");
-    }
+const regisButton = document.getElementById("regis");
+
+regisButton.addEventListener("click", function() {
+    window.location.href = "regis.html"; 
 });
 
- 
+
+const loginButton = document.getElementById("login");
+loginButton.addEventListener("click", function(event) {
+    event.preventDefault(); 
+    alert("Login button clicked!"); 
+});
