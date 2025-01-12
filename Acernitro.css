@@ -110,8 +110,9 @@ section {
 }
 .dots {
   position: absolute;
-  bottom: 900px;
-  left: 10%;
+  
+  bottom: 480px;
+  left: 12%;
   transform: translateX(-50%);
   display: flex;
 }
@@ -141,8 +142,8 @@ section {
   text-align: center;
   justify-content: center;
   align-items: center;
-  position: relative;
-  bottom: 230px;
+  position: absolute;
+  bottom: 350px;
 }
 
 .Judul h2 {
@@ -201,8 +202,8 @@ section {
   cursor: pointer;
   border-radius: 5px;
   position: relative;
-  left: 600px;
-  bottom: 200px;
+  left: 270px;
+  bottom: 50px;
 }
 
 .Tambah:hover {
