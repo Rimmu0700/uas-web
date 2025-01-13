@@ -83,7 +83,7 @@ $perlengkapan=pheripearls("SELECT * FROM perlengkapan")
   </div>
   </div>
   <div class="more-button">
-  <a href="more.html"><button>More products</button></a>
+  <a href="more.php"><button>More products</button></a>
   </div>
 
   <!-- ==========MONITOR======== -->

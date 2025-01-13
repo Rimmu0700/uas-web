@@ -68,6 +68,14 @@
           </div>
         </div>
         <div class="laptop-item">
+          <img src="Assets/monitor/g225F_msi.jpg" alt="Acer helios 16">
+          <div class="laptop-content">
+            <h3>MSI G225F</h3>
+            <p>Rp1.767.000</p>
+            <a href="AcerNitro15.html"><button>Spesifikasi</button></a>
+          </div>
+        </div>
+        <div class="laptop-item">
           <img src="Assets/Asus/Asus ROG Strix G15.png" alt="ROG G15">
           <div class="laptop-content">
             <h3>ASUS ROG STRIX-G15</h3>
