@@ -18,8 +18,8 @@
         </div>
         <div class="navbar1">
           <ul>
-            <li><a href="Index.html" class="a-navbar">Home</a></li>
-            <li><a href="more.html">Product</a></li>
+            <li><a href="Index.php" class="a-navbar">Home</a></li>
+            <li><a href="more.php">Product</a></li>
             <li><a href="#footer">About US</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="login.html">Account</a></li>
@@ -196,7 +196,7 @@
               </div>
             </div>
             <div class="laptop-item">
-              <img src="Assets/rtx.jpg" alt="Acer Nitro 15">
+              <img src="Assets/vga/rtx.jpg" alt="Acer Nitro 15">
               <div class="laptop-content">
                 <h3>RTX 5090</h3>
                 <p>Rp 40.000.000</p>
@@ -221,31 +221,7 @@
             </div>
       </div>
       </div>    
-      <footer id="footer">
-        <div class="footer-container">
-            <div class="footer content">
-                <h2>Kontak</h2>
-                <p>gmail:contoh@gmail.com</p>
-                <p>Nomor telepon:081233456789</p>
-                <p>alamat:jalan raya 1</p>
-            </div>
-            <div class="footer content">
-                <h2>Tipe laptop</h2>
-                <li><a href="">Laptop Murah</a></li>
-                <li><a href="">Laptop Gaming</a></li>
-                <li><a href="">Laptop Touchscreen</a></li>
-                <li><a href="">PC & Monitor</a></li>
-            </div>
-            <div class="footer content">
-                <h2>Sosial Media</h2>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Tiktok</a></li>
-                <li><a href="">Twiter</a></li>
-            </div>
-        </div>
-    </footer>
-    <!-- selesai bagian tommy -->
+      <!-- SCRIPT -->
      <script src="script.js"></script>
   </body>
   
