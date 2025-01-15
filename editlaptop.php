@@ -1,7 +1,7 @@
 <?php
 require "function.php";
 $data = laptop("SELECT * FROM laptop");
-
+var_dump($data)
 
 ?>
 
@@ -98,7 +98,7 @@ $data = laptop("SELECT * FROM laptop");
         <tr>
           
             <td><?php echo($i) ?></td>
-            <td><a href="ubah.php">ubah</a> | <a href="hapuslaptop.php?name=<?php echo($dt["id"]) ?>">hapus</a></td>
+            <td><a href="ubah.php?id=<?php echo($dt["id"])?>">ubah</a> | <a href="hapuslaptop.php?name=<?php echo($dt["id"]) ?>">hapus</a></td>
             <td><?php echo($dt["nama"]) ;?></td>
             <td><?php echo($dt["harga"]) ;?></td>
             <td><?php echo($dt["id"]) ?></td>
