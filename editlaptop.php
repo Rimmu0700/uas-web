@@ -1,7 +1,6 @@
 <?php
 require "function.php";
 $data = laptop("SELECT * FROM laptop");
-var_dump($data)
 
 ?>
 
@@ -59,6 +58,12 @@ var_dump($data)
         a:hover {
             text-decoration: underline;
         }
+        a.merah{
+            color: red;
+        }
+        td.ungu {
+            color: green;
+        }
 
         button {
             display: block;
@@ -84,24 +89,26 @@ var_dump($data)
     </style>
 </head>
 <body>
-    <h1>Daftar Product</h1>
+    <h1>Daftar Laptop</h1>
     <table border="2px" cellspacing="0" cellpadding="5px">
         <tr>
             <th>No</th>
             <th>Aksi</th>
             <th>Nama</th>
             <th>Harga</th>
-            <th>ID</th>
+
         </tr>
         <?php $i = 1; ?>
         <?php foreach($data as $dt){ ?>
         <tr>
           
             <td><?php echo($i) ?></td>
-            <td><a href="ubah.php?id=<?php echo($dt["id"])?>">ubah</a> | <a href="hapuslaptop.php?name=<?php echo($dt["id"]) ?>">hapus</a></td>
+            <td class="ungu"><a href="ubah.php?id=<?php echo($dt["id"])?>">ubah</a> |
+             <a href="hapuslaptop.php?name=<?php echo($dt["id"]) ?>" class="merah">hapus</a>
+            </td>
             <td><?php echo($dt["nama"]) ;?></td>
             <td><?php echo($dt["harga"]) ;?></td>
-            <td><?php echo($dt["id"]) ?></td>
+
           
         </tr>
         <?php $i++; ?>
