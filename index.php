@@ -22,8 +22,8 @@ $perlengkapan=pheripearls("SELECT * FROM perlengkapan")
         </div>
         <div class="navbar1">
           <ul>
-            <li><a href="Index.html" class="a-navbar">Home</a></li>
-            <li><a href="more.html">Product</a></li>
+            <li><a href="Index.php" class="a-navbar">Home</a></li>
+            <li><a href="more.php">Product</a></li>
             <li><a href="#footer">About US</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="login1.php">Account</a></li>
@@ -83,7 +83,7 @@ $perlengkapan=pheripearls("SELECT * FROM perlengkapan")
   </div>
   </div>
   <div class="more-button">
-  <a href="more.html"><button>More products</button></a>
+  <a href="more.php"><button>More products</button></a>
   </div>
 
   <!-- ==========MONITOR======== -->

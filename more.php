@@ -18,8 +18,8 @@
         </div>
         <div class="navbar1">
           <ul>
-            <li><a href="Index.html" class="a-navbar">Home</a></li>
-            <li><a href="more.html">Product</a></li>
+            <li><a href="Index.php" class="a-navbar">Home</a></li>
+            <li><a href="more.php">Product</a></li>
             <li><a href="#footer">About US</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="login.html">Account</a></li>
@@ -64,6 +64,14 @@
           <div class="laptop-content">
             <h3>ACER GAMING PREDATOR HELIOS NEO 16</h3>
             <p>Rp21.067.000</p>
+            <a href="AcerNitro15.html"><button>Spesifikasi</button></a>
+          </div>
+        </div>
+        <div class="laptop-item">
+          <img src="Assets/monitor/g225F_msi.jpg" alt="Acer helios 16">
+          <div class="laptop-content">
+            <h3>MSI G225F</h3>
+            <p>Rp1.767.000</p>
             <a href="AcerNitro15.html"><button>Spesifikasi</button></a>
           </div>
         </div>

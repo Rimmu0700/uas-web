@@ -107,7 +107,7 @@ if(isset($_POST["submit"])){
 </head>
 <body>
     <div class="container">
-    <h1>Tambah Product</h1>
+    <h1>Tambah Laptop</h1>
 
     <form action="" method="post" class="form">
         <ul>
