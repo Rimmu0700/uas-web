@@ -16,7 +16,7 @@
         }
         .container {
             width: 50%;
-            margin: 50px auto;
+            margin: 50px auto 10px;
             padding: 20px;
             border: 2px solid #ddd;
             border-radius: 8px;
@@ -48,6 +48,29 @@
             background-color: #007bff;
             color: #fff;
         }
+        button {
+        display: flex; 
+        margin: 1px auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        border: 2px solid #007bff;
+        color: white;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white; 
+    }
+    button a:hover{
+        text-decoration: underline;
+    }
+    button:hover{
+        border: 2px solid rgb(1, 62, 128);
+        background-color: rgb(1, 62, 128);
+    }
     </style>
 </head>
 <body>
@@ -60,6 +83,7 @@
         <li><a href="editlaptop.php">Delete Laptop</a></li>
         <li><a href="editlaptop.php">Update Laptop</a></li>
     </ul>
-    </div>
+    </div> 
+    <button type="submit" ><a href="index.php">Pergi Ke Main Web</a></button>
 </body>
 </html>

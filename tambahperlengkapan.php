@@ -5,13 +5,13 @@ if(isset($_POST["submit"])){
         echo"
         <script>
             alert('Pheriperals Baru Berhasil Ditambahkan');
-            document.location.href = 'index.php' ;
+            document.location.href = 'manage.php' ;
         </script>";
     }else{
         echo"
          <script>
             alert('Pheriperals Baru Berhasil Ditambahkan');
-            document.location.href = 'index.php' ;
+            document.location.href = 'manage.php' ;
         </script>";
     }
 };

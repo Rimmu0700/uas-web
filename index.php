@@ -25,7 +25,7 @@ $perlengkapan=pheripearls("SELECT * FROM perlengkapan")
             <li><a href="Index.php" class="a-navbar">Home</a></li>
             <li><a href="more.php">Product</a></li>
             <li><a href="#footer">About US</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="manage.php">Manage</a></li>
             <li><a href="login1.php">Account</a></li>
             <li class="keranjang"><img src="Assets/keranjang.png" alt=""></li>
           </ul>

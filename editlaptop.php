@@ -116,6 +116,6 @@ $data = laptop("SELECT * FROM laptop");
         
     </table>
 <br>
-<button><a href="index.php">Pergi ke Main Web</a></button>
+<button><a href="manage.php">Back To Manage Web</a></button>
 </body>
 </html>
