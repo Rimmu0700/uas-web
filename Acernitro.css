@@ -220,3 +220,54 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 1030px;
+  background-color:rgb(255, 255, 255);
+  color:black;
+  position: absolute;
+  top: 150%;
+  left: 0%;
+}
+
+.footer {
+  width: 30%;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.footer p, .footer li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .content {
+  padding: 10px;
+}
+
+.footer .content li {
+  margin-bottom: 5px;
+}
+
+.footer .content a {
+  color:white;
+}
