@@ -147,8 +147,18 @@ body {
   border-radius: 5px;
 }
 .Spec h2 {
-  
+  position: absolute;
+  left: 45%;
+  font-weight: lighter;
+  font-size: 40px;
+  top: 45%;
 }
+
+.Spec p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 .produk {
   text-align: center;
   font-weight: lighter;
